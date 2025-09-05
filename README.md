@@ -74,4 +74,11 @@ pip install -r requirements.txt   # Scapy
 
 Run the IDS with root privileges:
 
+   ```bash
     sudo python main.py
+
+**Installation**
+```bash
+git clone https://github.com/your-username/simple-python-ids.git
+cd simple-python-ids
+pip install -r requirements.txt
