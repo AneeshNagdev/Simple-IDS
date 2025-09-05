@@ -48,6 +48,7 @@ This project provides a simple, modular IDS that:
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
 
 Windows Requirements
 
@@ -66,3 +67,4 @@ Windows Requirements
 
 ```bash
 python main.py
+```
