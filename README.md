@@ -49,3 +49,20 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 
+Windows Requirements
+
+1. Download and install Npcap
+ (run installer as Administrator).
+
+2. During installation, enable:
+
+   “WinPcap API-compatible Mode”
+
+   “Restrict Npcap driver’s access to Administrators only”
+
+3. Reboot if prompted.
+
+4. Run IDS from an elevated PowerShell or CMD:
+
+```bash
+python main.py
