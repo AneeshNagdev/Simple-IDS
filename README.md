@@ -2,7 +2,6 @@
 
 A lightweight network-based Intrusion Detection System (IDS) built in Python using Scapy. This tool monitors live network traffic for common attack patterns (port scans, SYN floods, ICMP floods), logs alerts, and can be extended for real-world deployments.
 
----t
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -164,6 +163,7 @@ This project is intended **solely for educational and demonstration purposes**.
 - ⚠️ It does **not actively block attacks** — it only detects and logs them.  
 - ⚠️ Use **only in controlled environments** or networks you own/have permission to monitor.  
 - ⚠️ The authors and contributors are **not responsible** for any misuse, damages, or legal consequences arising from the use of this tool.  
+
 
 
 
