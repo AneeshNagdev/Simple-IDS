@@ -140,6 +140,7 @@ simple-python-ids/
 ├── ids.log            # Log file (created when IDS runs)
 ├── requirements.txt   # Python dependencies
 └── README.md          # Documentation
+```
 
 [Back to Top](#table-of-contents)
 
@@ -163,6 +164,7 @@ This project is intended **solely for educational and demonstration purposes**.
 - ⚠️ It does **not actively block attacks** — it only detects and logs them.  
 - ⚠️ Use **only in controlled environments** or networks you own/have permission to monitor.  
 - ⚠️ The authors and contributors are **not responsible** for any misuse, damages, or legal consequences arising from the use of this tool.  
+
 
 
 
