@@ -45,40 +45,7 @@ This project provides a simple, modular IDS that:
 - **Virtual environment** (recommended): isolates dependencies in `/venv`.
 - **pip** for installing Python packages.
 
-Install Python packages:
+Install dependencies:
 ```bash
-pip install -r requirements.txt   # Scapy
-
-### Windows Requirements
-
-1. **Npcap**: Download the official installer from https://nmap.org/npcap/.  
-2. Run the MSI **as Administrator**.  
-3. **Enable**:  
-   - “WinPcap API-compatible Mode”  
-   - “Restrict Npcap driver’s access to Administrators only” (for safety)  
-4. **Reboot** if prompted.  
-5. **Run your IDS** in an elevated PowerShell or CMD:
-   ```powershell
-   python main.py
-
-### Linux/macOS Requirements
-
-- **libpcap** is typically built-in. If it’s missing, install via your package manager:
-
-  ```bash
-  # Debian/Ubuntu
-  sudo apt install libpcap-dev
-
-  # RHEL/CentOS
-  sudo yum install libpcap-devel
-
-Run the IDS with root privileges:
-
-   ```bash
-    sudo python main.py
-
-**Installation**
-```bash
-git clone https://github.com/your-username/simple-python-ids.git
-cd simple-python-ids
 pip install -r requirements.txt
+
